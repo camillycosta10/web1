@@ -1,0 +1,55 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    padding: 200px;
+    height: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.ambiente {
+    background-color: rgb(160, 207, 155);
+    border: 1 px solid #ccc;
+    margin-bottom: 15px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.estado {
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: rgb(7, 5, 5);
+    text-align: center;
+    width: 150px;
+}
+
+.ocupado {
+    background-color: palevioletred;
+    font-weight: bold;
+}
+
+.livre {
+    background-color: cornflowerblue;
+    font-weight: bold;
+}
+
+.manutencao {
+    background-color: rgb(216, 78, 14);
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .ambiente {
+        flex-direction: column;
+        align-items: center;
+    }
+}
